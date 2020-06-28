@@ -47,6 +47,7 @@ public class Jogo extends JFrame {
 		contentPane.setLayout(null);
 		
 		//ImageIcon img = new ImageIcon("assets/background_silabador.png");
+		
 		JLabel lblNivel = new JLabel("Nivel: " + nivel.getNivel());
 		lblNivel.setForeground(new Color(0, 0, 128));
 		lblNivel.setFont(new Font("Cooper Black", Font.PLAIN, 20));
